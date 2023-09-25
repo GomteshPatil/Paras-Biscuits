@@ -33,7 +33,6 @@ replay_pid*
 /bower_components
 # Ignore compiled JavaScript and TypeScript files
 /dist/
-*.js
 *.js.map
 *.d.ts
 
@@ -47,7 +46,7 @@ replay_pid*
 # Ignore user-specific history files
 .history	
 # Ignore compiled CSS (if you're using a CSS preprocessor)
-*.css
+
 # Ignore .gitignore and .gitattributes files themselves
 .gitattributes
 

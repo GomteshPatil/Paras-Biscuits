@@ -1,0 +1,61 @@
+body {
+    background: url('assets\images\background2.jpeg'), rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* --themeColor: #deb887; */
+    /* --themeColor: #c5a37a; */
+    --themeColor: #c5a37a;
+}
+
+.header {
+    position: sticky;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+div.main-body {
+    overflow-y: auto;
+    height: 400rem;
+}
+
+.slides {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+
+
+
+
+
+@media(min-width:1440px) {
+    .header {
+        background-color: #c5a37a;
+    }
+
+    div.main-body {
+        overflow-y: auto;
+        height: 40em;
+    }
+}
+
+@media(max-width:1440px) {
+    .header {
+        background-color: #c5a37a;
+    }
+
+    div.main-body {
+        overflow-y: auto;
+        height: 34em;
+    }
+
+}
