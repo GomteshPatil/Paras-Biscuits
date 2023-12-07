@@ -40,6 +40,10 @@
     background-blend-mode: darken;
 }
 
+.text-color {
+    color: white;
+}
+
 .nav-list {
     display: flex;
     width: 70%;
@@ -163,6 +167,15 @@
     width: 20em;
     resize: none;
 }
+
+
+.navbar-nav {
+    text-align: center;
+}
+
+
+
+
 
 
 @media only screen and (max-width:660px) {

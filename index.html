@@ -2,191 +2,137 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paras Food Products</title>
+    <title>PARAS</title>
     <link rel="icon" type="image/x-icon" href="assets\images\paras_logo.png">
     <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css">
-    <script src="js\JsClass.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="cust-navbar background">
-        <ul class="nav-list">
-            <div class="app-logo"><img src="assets\images\paras_logo.png" alt="logo">
-                &nbsp;<h3>PARAS FOODS</h3>
+    <div class="header">
+        <!-- <nav class="navbar bg-primary border-bottom navbar navbar-expand-lg bg-body-tertiary"> -->
+        <nav class="navbar fixed-top border-bottom navbar navbar-expand-lg" style="background-color: #ededed;">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="btn btn-outline-light" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <a class="navbar-brand " href="#">
+                    <img src="assets\images\paras_logo.png" alt="" width="60" height="60" class="d-inline-block">
+                    Paras Food Products</a>
+
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link " aria-current="location" href="#aboutUs">About Us</a>
+                        <a class="nav-link " href="#">Products</a>
+                        <a class="nav-link " href="#">Reach Us</a>
+                    </div>
+                </div>
             </div>
-            <li class="list-item"><a href="#home">Home</a></li>
-            <li class="list-item"><a href="#products">Products</a></li>
-            <li class="list-item"><a href="#about">About</a></li>
-            <li class="list-item"><a href="#contact">Contact Us</a></li>
-        </ul>
-        <div class="right-nav">
-            <span>
-                <i class="fab fa-facebook-square fa-lg clr-white"></i>
-            </span>
-            <span>
-                <i class="fab fa-instagram fa-lg clr-white"></i>
-            </span>
-        </div>
-    </nav>
-    <div class="burgur">
-        <dvi class="line"></dvi>
-        <dvi class="line"></dvi>
-        <dvi class="line"></dvi>
+        </nav>
     </div>
-    <section class="firstSection background">
-        <div class="box-main">
-            <div class="firstHalf">
-                <p class="text-big"></p>
-                <p class="text-small"></p>
+    <div class="site-body" id="home">
+
+        <div class="sliders">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets\images\background2.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets\images\background3.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets\images\background6.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="secondHalf">
-                <!-- <img src="https://picsum.photos/200" alt=""> -->
-            </div>
         </div>
 
-
-
-    </section>
-
-    <section class="cust-section">
-        <div class="paras">
-            <p class="secTag">AnyTing You can Add</p>
-            <p class="secSubTag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero obcaecati dolore
-                nesciunt
-                vel, atque possimus laboriosam corporis, odio rem blanditiis facilis voluptatem deleniti cupiditate
-                facere
-                quas sint architecto nemo. Maiores officia suscipit impedit dolorum totam sint. Tempora vero sint earum
-                aliquid minima. Voluptate, vero natus magni voluptates placeat assumenda excepturi illum laborum enim,
-                et
-                voluptatibus libero possimus porro expedita! Corrupti eligendi voluptatem numquam? Incidunt odio quas
-                repellendus tenetur aperiam a, deleniti quasi eaque ratione, veritatis quod deserunt veniam architecto!
-                Aut
-                possimus odio tempore, ipsum animi amet veniam commodi minima recusandae beatae illum corrupti
-                consequatur
-                ab dicta laudantium, perspiciatis delectus assumenda.</p>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iure dicta, debitis repellendus animi, ea
+            aspernatur dolore hic voluptatem itaque tenetur quas cumque eligendi vero et eius quod optio placeat neque,
+            nihil ut assumenda atque nulla! Quaerat fuga quisquam nemo dicta odit officiis atque cumque pariatur
+            reiciendis, laborum voluptate et assumenda a saepe, itaque nisi provident quod ea voluptatem nesciunt illo,
+            debitis ducimus commodi eius? Rerum inventore nam id eveniet unde odit ad! Dicta ratione molestias quae aut
+            dignissimos deserunt unde nobis provident ad. Rerum est aliquid atque dicta alias esse perferendis, iusto
+            deleniti cupiditate sunt facere asperiores accusamus. Cum dolores reprehenderit reiciendis officiis deleniti
+            saepe quisquam quas a? Vero, nemo doloremque iusto, repellat quod similique perferendis ut ullam neque
+            tenetur omnis distinctio saepe perspiciatis, impedit dolorum quis sequi odio inventore ea sunt voluptatem in
+            eligendi fuga! Reprehenderit ut perspiciatis enim minus neque molestiae cumque incidunt molestias inventore
+            dicta repudiandae, temporibus nihil sed numquam excepturi accusamus omnis ipsum consequuntur iure, ea ipsa,
+            eligendi sapiente! Eos, voluptatem. Possimus officia tempora fugiat distinctio recusandae! Repellendus iure
+            nam nihil ipsa dolorum alias nesciunt. Possimus, dolores deleniti tenetur nam nulla perspiciatis sint
+            obcaecati, ipsa reprehenderit modi hic natus repudiandae, at officia quo nemo nobis sed minus molestiae
+            veniam aut! Nihil animi voluptas neque, veniam expedita fugit, deserunt ipsa dignissimos labore quod
+            pariatur sapiente odio, reiciendis excepturi beatae consequatur maxime. Aut quod alias necessitatibus libero
+            consectetur praesentium. Necessitatibus quia commodi voluptatem, consectetur maxime esse veritatis voluptas
+            velit iste facilis qui dignissimos fuga atque sequi tempore unde ad ipsum quos, nisi, tempora rerum.
+            Deserunt nulla at expedita, quia quisquam vel dolore sapiente molestiae. Voluptate, ullam quod vitae aut
+            tempore quidem ratione, adipisci at distinctio neque doloremque dicta provident quis facilis hic blanditiis
+            ipsa obcaecati? Nulla repellendus deleniti vitae possimus quis, ducimus eveniet rem dicta minima at eum
+            explicabo, similique reprehenderit quam assumenda, esse tempora magni suscipit provident molestiae ad?
+            Labore id exercitationem officia quo, autem mollitia commodi cupiditate at necessitatibus corporis
+            consequuntur nisi molestias tempora ipsa laudantium aut fugit nemo quas accusamus earum! Totam nemo officia
+            impedit dolorem tenetur veritatis natus, velit aliquid suscipit, aspernatur vitae perferendis soluta dolorum
+            esse ab ipsam? Accusantium corrupti aperiam quisquam assumenda vitae, unde delectus autem dignissimos
+            laboriosam, excepturi quaerat, aliquid quia beatae! Itaque distinctio totam ratione voluptatibus cumque
+            pariatur dolorem neque animi provident ducimus voluptatum culpa doloribus amet voluptas excepturi, sunt
+            eligendi. Aperiam dolore maiores similique dolorem enim! Repellat nisi nihil omnis sunt itaque. Numquam
+            tempore expedita eligendi corrupti dicta assumenda velit perspiciatis, magnam sapiente possimus, unde
+            nesciunt rem vel corporis quis! Blanditiis maxime temporibus aliquam tenetur perspiciatis ut quam accusamus
+            pariatur quidem quasi error, totam excepturi est commodi reprehenderit harum velit beatae eos tempore nihil!
+            Doloribus aut aliquam praesentium quo at fugiat ipsam voluptatum obcaecati omnis, suscipit quidem,
+            voluptatibus animi repellendus eum quaerat quasi laboriosam placeat, minus labore eos. Officia natus dicta
+            soluta. Eaque dolorum voluptatem cum quos! Quasi tempore doloremque repellat expedita voluptate
+            reprehenderit aperiam consectetur suscipit dignissimos animi, omnis hic mollitia illum sed. Voluptate quas
+            sunt a.
         </div>
-
-        <div class="thumbNail">
-            <img src="https://picsum.photos/200/200?random=1">
-        </div>
-    </section>
-    <section class="cust-section left">
-        <div class="paras">
-            <p class="secTag">AnyTing You can Add</p>
-            <p class="secSubTag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero obcaecati dolore
-                nesciunt
-                vel, atque possimus laboriosam corporis, odio rem blanditiis facilis voluptatem deleniti cupiditate
-                facere
-                quas sint architecto nemo. Maiores officia suscipit impedit dolorum totam sint. Tempora vero sint earum
-                aliquid minima. Voluptate, vero natus magni voluptates placeat assumenda excepturi illum laborum enim,
-                et
-                voluptatibus libero possimus porro expedita! Corrupti eligendi voluptatem numquam? Incidunt odio quas
-                repellendus tenetur aperiam a, deleniti quasi eaque ratione, veritatis quod deserunt veniam architecto!
-                Aut
-                possimus odio tempore, ipsum animi amet veniam commodi minima recusandae beatae illum corrupti
-                consequatur
-                ab dicta laudantium, perspiciatis delectus assumenda.</p>
-        </div>
-
-        <div class="thumbNail">
-            <img src="https://picsum.photos/200/200?random=2">
-        </div>
-    </section>
-    <section class="cust-section">
-        <div class="paras">
-            <p class="secTag">AnyTing You can Add</p>
-            <p class="secSubTag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero obcaecati dolore
-                nesciunt
-                vel, atque possimus laboriosam corporis, odio rem blanditiis facilis voluptatem deleniti cupiditate
-                facere
-                quas sint architecto nemo. Maiores officia suscipit impedit dolorum totam sint. Tempora vero sint earum
-                aliquid minima. Voluptate, vero natus magni voluptates placeat assumenda excepturi illum laborum enim,
-                et
-                voluptatibus libero possimus porro expedita! Corrupti eligendi voluptatem numquam? Incidunt odio quas
-                repellendus tenetur aperiam a, deleniti quasi eaque ratione, veritatis quod deserunt veniam architecto!
-                Aut
-                possimus odio tempore, ipsum animi amet veniam commodi minima recusandae beatae illum corrupti
-                consequatur
-                ab dicta laudantium, perspiciatis delectus assumenda.</p>
-        </div>
-
-        <div class="thumbNail">
-            <img src="https://picsum.photos/200/200?random=3">
-
-        </div>
-    </section>
-    <section class="cust-section left">
-        <div class="paras">
-            <p class="secTag">AnyTing You can Add</p>
-            <p class="secSubTag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero obcaecati dolore
-                nesciunt
-                vel, atque possimus laboriosam corporis, odio rem blanditiis facilis voluptatem deleniti cupiditate
-                facere
-                quas sint architecto nemo. Maiores officia suscipit impedit dolorum totam sint. Tempora vero sint earum
-                aliquid minima. Voluptate, vero natus magni voluptates placeat assumenda excepturi illum laborum enim,
-                et
-                voluptatibus libero possimus porro expedita! Corrupti eligendi voluptatem numquam? Incidunt odio quas
-                repellendus tenetur aperiam a, deleniti quasi eaque ratione, veritatis quod deserunt veniam architecto!
-                Aut
-                possimus odio tempore, ipsum animi amet veniam commodi minima recusandae beatae illum corrupti
-                consequatur
-                ab dicta laudantium, perspiciatis delectus assumenda.</p>
-        </div>
-
-        <div class="thumbNail">
-            <img src="https://picsum.photos/200/200?random=4">
-        </div>
-    </section>
-
-    <div class="contactUs">
-        <h2>Contact Us</h2>
-        <div class="feedback-form">
-            <div class="field">
-                <input placeholder="Enter your name" type="text">
-            </div>
-            <div class="field">
-                <input placeholder="Enter your Phone" type="number" min="1" maxlength="10" minlength="10">
-            </div>
-            <div class="field">
-                <input placeholder="Enter your Email" type="text">
-            </div>
-            <div class="field">
-                <textarea name="" id="" cols="30" rows="5" placeholder="Query"></textarea>
-            </div>
-            <div><button>Submit</button></div>
-
-
+        <div class="aboutUs">
+            <h1>Paras Biscuits</h1>
         </div>
     </div>
-
-    <h3>Geo location API</h3>
-    <button onclick="getLocation()">Try It</button>
-    <p id="demo" value="rocket"></p>
-
-    <footer class="background">
-        <p class="footer-text">Copyrights &copy; 2023 All Rights Reservered</p>
-    </footer>
-
-
-    <script>
-        const x = document.getElementById("demo");
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
-            } else {
-                x.innerHTML = "Geolocation is not supported by this browser.";
-            }
-        }
-
-        function showPosition(position) {
-
-            x.innerHTML = "Latitude: " + position.coords.latitude +
-                "<br>Longitude: " + position.coords.longitude;
-        }
-    </script>
 </body>
 
 </html>
